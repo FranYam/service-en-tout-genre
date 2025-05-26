@@ -23,6 +23,7 @@ section.top_page {
 /* Menu de navigation */
 nav.nav {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     justify-content: space-between;
     width: 600px;
@@ -35,6 +36,7 @@ nav.nav li a {
 }
 header.header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     
@@ -71,7 +73,7 @@ header.header {
 .service-item {
     display: flex;
     align-items: center;
-    
+    flex-wrap: wrap;
     flex-direction: column;
 
 }
@@ -134,7 +136,7 @@ header.header {
 .prod-details {
     position: absolute;
     bottom:0 ;
-   width: 100%;
+    width: 100%;
     background-color: #d3e9ed9f;
     padding:  5px 10px;
     font-size: 20px;
@@ -218,6 +220,7 @@ header.header {
 /* Pieds de page */
 footer {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin: 20px 100px;
