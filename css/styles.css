@@ -239,14 +239,6 @@ footer a.cgv{
     line-height: 5px;
 }
 
-
-    footer {
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
-    }
-}
-
 .numero {
     text-decoration: underline;
     font-weight: 100;
