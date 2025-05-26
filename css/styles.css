@@ -8,7 +8,7 @@ html {
 }
 body{
     margin: 0 auto;
-    background-color: rgb(24, 24, 23);
+    background-color: rgba(0,0,0,255);
 }
 header.header img{
     width: 160px;
