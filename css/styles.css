@@ -238,11 +238,27 @@ footer a.cgv{
     font-weight: 400;
     line-height: 5px;
 }
+
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+.numero {
+    text-decoration: underline;
+    font-weight: 100;
+    line-height: 3px;
+}
+
 @media (max-width: 768px) {
     .big_title {
         font-size: 40px;
         width: 100%;
         height: auto;
+        text-align: center;
     }
 
     nav.nav {
@@ -250,10 +266,28 @@ footer a.cgv{
         width: 100%;
         margin-left: 0;
         gap: 10px;
+        align-items: center;
     }
 
     .landing_page {
         padding: 10px;
+    }
+
+    .services {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .best-product {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .prod-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
     }
 
     footer {
@@ -263,9 +297,3 @@ footer a.cgv{
     }
 }
 
-
-.numero {
-    text-decoration: underline;
-    font-weight: 100;
-    line-height: 3px;
-}
