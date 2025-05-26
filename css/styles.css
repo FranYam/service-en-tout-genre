@@ -69,6 +69,7 @@ header.header {
     display: flex;
     justify-content: space-between;
     margin: 50px;
+    flex-wrap:wrap;
 }
 .service-item {
     display: flex;
@@ -101,6 +102,7 @@ header.header {
 .best-product {
     min-height: 500px;
     display: flex;
+    flex-wrap:wrap;
     
 }
 .prod-box {
@@ -160,11 +162,10 @@ header.header {
 .prod-grid {
     display: grid;
     min-height: 140vh;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,400);
+    grid-template-columns: repeat(auto-fit,minmax(1fr));
     background-size: cover;
     background-position: center;
-    
+    gap:20px;
 }
 .prod-grid1 {
     background-image: url(../Images\ du\ site/produits/6.jpg);
@@ -237,6 +238,32 @@ footer a.cgv{
     font-weight: 400;
     line-height: 5px;
 }
+@media (max-width: 768px) {
+    .big_title {
+        font-size: 40px;
+        width: 100%;
+        height: auto;
+    }
+
+    nav.nav {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        gap: 10px;
+    }
+
+    .landing_page {
+        padding: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+
 .numero {
     text-decoration: underline;
     font-weight: 100;
