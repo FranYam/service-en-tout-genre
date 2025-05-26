@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserratwght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+html {
+    scroll-behavior: smooth;
+}
+*{
+    font-family:'Montserrat' ;
+}
+body{
+    margin: 0 auto;
+    background-color: rgb(24, 24, 23);
+}
+header.header img{
+    width: 160px;
+}
+section.top_page {
+    background: url("../Images\ du\ site/background.jpg");
+    background-size:cover ;
+    height: 130vh;
+    padding: 20px;
+}
+
+/* Menu de navigation */
+nav.nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 600px;
+    margin-left:  30px; 
+    
+}
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+}
+header.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/* page de bienvenur(landing_page) */
+.landing_page {
+    padding: 20px 50px ;
+}
+.big_title {
+    color: white;
+    font-size: 80px;
+    align-content: center;
+    font-family:'Abril Fatface' ;
+    font-weight: 80px;
+    width:60%;
+    height: 650px;
+   
+}
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    bottom: 100%;
+   
+}
+
+/* services */
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.service-item {
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+
+}
+.service-buss {
+    font-weight: 600 px;
+    width: 150px;
+    text-align: center;
+    
+    color: white;
+}
+.delivery {
+    font-size: 50px; 
+    color: rgb(242, 243, 244);
+
+}
+
+/* Nos produits en vente */
+.section-title {
+    font-size: 50px; 
+    font-family: 'Abril Fatface';
+    font-weight:100 ;
+    color: white;
+    
+}
+.best-product {
+    min-height: 500px;
+    display: flex;
+    
+}
+.prod-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    
+}
+.no-grid {
+    min-width:350px ;
+    height: 500px;
+    flex: 1;
+}
+.prod1 {
+    background-image: url(../Images\ du\ site/produits/4.jpg);
+    
+}
+.prod2 {
+    background-image: url(../Images\ du\ site/produits/5.jpg);
+    
+}
+.prod3 {
+    background-image: url(../Images\ du\ site/produits/15.jpg);
+   
+}
+.prod4 {
+    background-image: url(../Images\ du\ site/produits/11.jpg);
+   
+}
+.best-products {
+    margin:100px ;
+}
+.prod-details {
+    position: absolute;
+    bottom:0 ;
+   width: 100%;
+    background-color: #d3e9ed9f;
+    padding:  5px 10px;
+    font-size: 20px;
+}
+.price {
+    font-weight: 800;
+}
+
+/* Tous nos produits disponibles */
+.section-subtitle {
+    font-size: 50px; 
+    font-family: 'Abril Fatface';
+    font-weight:100 ;
+    color: white;
+}
+.all-products {
+    margin: 50px;
+    
+}
+
+.prod-grid {
+    display: grid;
+    min-height: 140vh;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,400);
+    background-size: cover;
+    background-position: center;
+    
+}
+.prod-grid1 {
+    background-image: url(../Images\ du\ site/produits/6.jpg);
+    
+}
+.prod-grid2 {
+    background-image: url(../Images\ du\ site/produits/4.jpg);
+   
+}
+.prod-grid3 {
+    background-image: url(../Images\ du\ site/produits/5.jpg);
+   
+}
+.prod-grid4 {
+    background-image: url(../Images\ du\ site/produits/15.jpg);
+     
+}
+.prod-grid5 {
+    background-image: url(../Images\ du\ site/produits/11.jpg);
+
+}
+.prod-grid6 {
+    background-image: url(../Images\ du\ site/produits/17.jpg);
+}
+.prod-grid7 {
+    background-image: url(../Images\ du\ site/produits/2.jpg);
+}
+.prod-grid8 {
+    background-image: url(../Images\ du\ site/produits/1.jpg);
+}
+.prod-grid9 {
+    background-image: url(../Images\ du\ site/produits/14.jpg);
+}
+.prod-grid10 {
+    background-image: url(../Images\ du\ site/produits/13.jpg);
+}
+.prod-grid11 {
+    background-image: url(../Images\ du\ site/produits/18.jpg);
+}
+.prod-grid12 {
+    background-image: url(../Images\ du\ site/produits/7.jpg);
+}
+.prod-grid13 {
+    background-image: url(../Images\ du\ site/produits/12.jpg);
+}
+.prod-grid14 {
+    background-image: url(../Images\ du\ site/produits/8.jpg);
+}
+.prod-grid15 {
+    background-image: url(../Images\ du\ site/produits/3.jpg);
+    grid-column: 3/5;
+}
+/* Pieds de page */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+    font-weight: 600;
+    color: white;
+}
+footer a.cgv{
+    text-decoration: none;
+    color: white;
+}
+.Contacts {
+    font-size: 200;
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+    line-height: 5px;
+}
+.numero {
+    text-decoration: underline;
+    font-weight: 100;
+    line-height: 3px;
+}
